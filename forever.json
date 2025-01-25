@@ -1,0 +1,10 @@
+{
+  "uid": "buncord",
+  "append": true,
+  "script": "index.js",
+  "command": "bun",
+  "sourceDir": "/home/pi/Desktop/buncord",
+  "logFile": "/home/pi/Desktop/buncord/logs/forever.log",
+  "outFile": "/home/pi/Desktop/buncord/logs/out.log",
+  "errFile": "/home/pi/Desktop/buncord/logs/error.log"
+}
