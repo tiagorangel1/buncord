@@ -162,7 +162,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
   } catch (error) {
     output = error?.message || error;
     success = false;
-    console.log(output)
+    console.log(output);
   }
 
   if (output.length > 1000) {
@@ -189,7 +189,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     });
   } catch {
     await interaction.reply({
-      content: "❌ An error occured",
+      content: "❌ An error occured while executing the code",
     });
     return;
   }
